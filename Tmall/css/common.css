@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.wrapper{
+    width:1230px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    /*
+    这个是用来消除链接下划线的
+     */
+}
+
+li{
+    list-style: none;
+    /*用来消除圆点的*/
+}

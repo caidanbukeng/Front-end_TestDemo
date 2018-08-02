@@ -1,0 +1,49 @@
+.circule {
+    border: 10px solid black;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    border-radius: 50%;
+}
+.blue{
+    border-color: blue;
+}
+.blue:after{
+    content: "";
+    border:10px solid;
+    border-top-color: blue;
+    border-bottom: transparent;
+    z-index: 1;
+    position: absolute;
+}
+.black{
+    top:10px;
+    left:240px;
+}
+.black:after{
+
+}
+.red{
+    border-color: red;
+    top:10px;
+    left:470px;
+}
+.red:after{
+
+}
+.green{
+    border-color: green;
+    top:130px;
+    left:120px;
+}
+.green:after{
+
+}
+.yellow{
+    border-color:yellow;
+    top:130px;
+    left:350px;
+}
+.yellow:after{
+
+}

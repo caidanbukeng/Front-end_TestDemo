@@ -1,0 +1,149 @@
+#header{
+    background:#f2f2f2;
+    height: 32px;
+    color: #999;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 32px;
+}
+#login-contain{
+    display: inline;
+}
+#login-contain a{
+    padding-left: 20px;
+    color: #999999;
+}
+#login-contain a:hover{
+    color:red;
+}
+#header-menu{
+    float:right;
+}
+#header-menu .menu{
+    float:left;
+    padding:0 14px;
+    position: relative;
+}
+
+
+.menu .iconfont{
+    color:red;
+}
+#header-menu .menu-hd::after{
+    content:"";
+    border:3px solid transparent;
+    border-top-color: #bbbbbb;
+    position: absolute;
+    top:15px;
+    right:4px;
+    transform-origin: 3px 1.5px;
+
+}
+#header-menu .menu-hd:hover{
+    background:white;
+}
+
+#header-menu .menu-hd:hover::after{
+    transform: rotate(180deg);
+    transition: transform 0.2s linear;
+}
+#header-menu .menu-hd:hover>a{/*只想父元素变化，子元素不变，就加>*/
+    text-decoration: underline;
+    color:red;
+}
+
+#header-menu .menu-nav:hover a{
+    color:red;
+}
+/*#header-menu .menu-nav #img1{
+    border:1px solid #999999;
+    border-top:0;
+    position:absolute;
+    width: 200px;
+
+}*/
+
+#header-menu .menu-hd .sub-menu{
+    border:1px solid #999999;
+    border-top:0;
+    position: absolute;
+    top:32px;
+    left:0;
+    width:110px;
+    display: none;
+}
+#header-menu .menu-hd:hover .sub-menu{
+    display: block;
+}
+#header-menu .menu-hd .sub-menu li{
+    padding: 0 14px;
+}
+#header-menu .menu-hd .sub-menu a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+#header-menu .menu-nav img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top:32px;
+    right:-27px;
+    display: none;
+}
+#header-menu .menu-nav:hover img{
+    display: block;
+}
+#header-menu .menu-hd:hover #ADiv{
+    display: block;
+}
+#header-menu .menu-hd #ADiv{
+    width: 110px;
+    border: 1px solid #999999;
+    border-top: 0;
+    position:absolute;
+    top:32px;
+    right:0;
+    display:none;
+}
+#header-menu .menu-hd #ADiv .leftdiv{
+    float: left;
+}
+#header-menu .menu-hd #ADiv .leftdiv a:hover{
+    color:red;
+    text-decoration: underline;
+}
+#header-menu .menu-hd #ADiv .leftdiv .shop{
+    color:black;
+    font-weight:200;
+    font-size: 13px;
+}
+#header-menu .menu-hd #ADiv .rightdiv .ShoppingCenter{
+    margin-top: 32px;
+}
+#header-menu .menu-hd #ADiv .rightdiv{
+    font-size: 13px;
+    float:right;
+}
+#header-menu .menu-hd #ADiv .rightdiv a:hover{
+    color:red;
+    text-decoration: underline;
+}
+#header-menu .menu-hd #ADiv .bottomdiv #center{
+    float: left;
+    margin-right: 0;
+}
+#header-menu .menu-hd #ADiv .bottomdiv #ask{
+    float: right;
+    margin-left: 0;
+}
+#header-menu .menu-hd #ADiv .bottomdiv a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+#header-menu .menu-hd .icon-wangzhandaohang-copy-copy{
+    cursor: pointer;
+}
+
+
